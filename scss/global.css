@@ -253,6 +253,9 @@ h1 {
 .s-1 {
   display: inline-block;
   vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1500px;
 }
 
 .ps-1 {
@@ -268,7 +271,9 @@ h1 {
   font-weight: 800;
   line-height: normal;
   padding-top: 71px;
-  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
 }
 .s-2 .card-1 {
   vertical-align: middle;
@@ -303,7 +308,9 @@ h1 {
   font-weight: 800;
   line-height: normal;
   padding-top: 71px;
-  padding-left: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1300px;
 }
 .s-3 .card-1 {
   vertical-align: middle;
@@ -328,6 +335,122 @@ h1 {
   line-height: 16px; /* 66.667% */
   letter-spacing: 0.48px;
   padding-bottom: 8px;
+}
+
+.s-4 {
+  color: #222;
+  font-family: "Rockwell Extra Bold";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-top: 71px;
+  width: 1300px;
+  display: inline-block;
+  margin-left: 270px;
+  margin-right: auto;
+}
+
+.card-2 {
+  width: 610px;
+  display: inline-block;
+  vertical-align: top;
+}
+.card-2 img {
+  width: 610px;
+  height: 400px;
+  flex-shrink: 0;
+  padding-top: 32px;
+}
+.card-2 p {
+  color: #222;
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 140% */
+}
+
+.s-5 img {
+  width: 610px;
+  height: 736px;
+  flex-shrink: 0;
+  border: 1px solid #A7A7A7;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.s-5 h3 {
+  color: #222;
+  font-family: Rockwell;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 13px;
+}
+.s-5 h1 {
+  color: #222;
+  font-family: "Rockwell Extra Bold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 13px;
+}
+.s-5 .sh-5 {
+  color: #222;
+  font-family: "Rockwell Extra Bold";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 19px;
+}
+.s-5 .daxa {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  margin-left: 59px;
+}
+.s-5 .xat {
+  width: 800px;
+  vertical-align: bottom;
+  margin-top: 100px;
+}
+.s-5 .xat img {
+  width: 190px;
+  height: 208px;
+  flex-shrink: 0;
+  border: 1px solid #A7A7A7;
+  background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 20px;
+  z-index: index 1;
+  animation-name: xato;
+}
+.s-5 img:hover {
+  height: 800px;
+  width: 900px;
+  z-index: index 1;
+  transition: 1s;
+}
+@keyframes xato {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    left: 500px;
+    top: 500px;
+  }
+}
+
+.conteiner {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
