@@ -77,7 +77,7 @@ margin-left: auto;
         color: #222;
         font-feature-settings: 'clig' off, 'liga' off;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-size: 24px;
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: 16px; /* 66.667% */
@@ -235,19 +235,13 @@ background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 display: inline-block;
 vertical-align: bottom;
 margin-right: 20px;
-position: absolute;
-animation-name: xato;
+
+
 
 
         }
     }
-    img:hover {
-       height: 800px;
-       width: 900px;
-      position: absolute;
-       transition: 1s;
-       
-        }
+    
 
        
       
@@ -255,7 +249,7 @@ animation-name: xato;
     }
     
 
-}
+
 
 
 
