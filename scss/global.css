@@ -326,6 +326,7 @@ h1 {
   background: url(<path-to-image>) lightgray 50%/cover no-repeat;
   margin-bottom: 16px;
   margin-top: 60px;
+  
 }
 .s-3 .card-1 h1 {
   color: #222;
@@ -370,7 +371,8 @@ h1 {
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
+  /* 140% */
 }
 
 .s-5 img {

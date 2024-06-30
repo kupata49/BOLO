@@ -104,6 +104,7 @@ margin-left: auto;
 
 
 .card-1{
+   
     img{
         width: 295px;
         height: 295px;
@@ -112,7 +113,9 @@ margin-left: auto;
         background: url(<path-to-image>) lightgray 50% / cover no-repeat;
         margin-bottom: 16px;
         margin-top: 60px;
+       
     }
+    
     h1{
         color: #222;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -127,7 +130,6 @@ margin-left: auto;
     vertical-align: middle;
     display: inline-block;
     
-}
 }
 .s-4{
     
@@ -169,52 +171,57 @@ line-height: 28px; /* 140% */
     display: inline-block;
     vertical-align: top;
 
+
 }
 .s-5{
     
     img{
-        width: 610px;
-height: 736px;
-flex-shrink: 0;
-border: 1px solid #A7A7A7;
-background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-display: inline-block;
-margin-bottom: 50px;
+        
+      width: 610px;
+       height: 736px;
+       flex-shrink: 0;
+       border: 1px solid #A7A7A7;
+        background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+        display: inline-block;
+        margin-bottom: 50px;
+          
+
     }
     h3{
         color: #222;
-font-family: Rockwell;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-bottom: 13px;
+        font-family: Rockwell;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-bottom: 13px;
 
 
     }
     h1{
-        color: #222;
-font-family: "Rockwell Extra Bold";
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-padding-bottom: 13px;
+        
+  color: #222;
+  font-family: "Rockwell Extra Bold";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 13px;
     }
     .sh-5{
         color: #222;
-font-family: "Rockwell Extra Bold";
-font-size: 50px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-margin-bottom: 19px;
+  font-family: "Rockwell Extra Bold";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 19px;
     }
     .daxa{
         display: inline-block;
-        width: 300px;
-        vertical-align: top;
-        margin-left: 59px;
+  width: 300px;
+  vertical-align: top;
+  margin-left: 59px;
         
 
     }
@@ -228,38 +235,24 @@ margin-bottom: 19px;
 
         img{
             width: 190px;
-height: 208px;
-flex-shrink: 0;
-border: 1px solid #A7A7A7;
-background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-display: inline-block;
-vertical-align: bottom;
-margin-right: 20px;
+            height: 208px;
+            flex-shrink: 0;
+            border: 1px solid #A7A7A7;
+            background: url(<path-to-image>) lightgray 50%/cover no-repeat;
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 20px;
 
 
 
 
         }
     }
-    
-
-       
-      
-    
-    }
-    
-
-
-
-
-
+}
 
 .conteiner{
     width: 1400px;
     margin-left: auto;
-    margin-right: auto;
-    position: relative;
-
-}
+    margin-right: auto;}
 
 
